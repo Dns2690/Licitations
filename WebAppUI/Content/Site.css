@@ -1,0 +1,27 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+li.dropdown:last-child .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+.licitation-card {
+    max-width: 48%;
+    min-width: 200px;
+}
+
+.material-icons.md-60 {
+    font-size: 60px;
+}
